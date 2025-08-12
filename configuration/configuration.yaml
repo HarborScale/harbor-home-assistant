@@ -14,7 +14,7 @@ rest_command:
           "time": "{{ now().utcnow().isoformat() }}Z",
           "ship_id": "{{ sensor.entity_id.split('.')[1].replace('_', ' ').title() }}",
           "cargo_id": "{{ sensor.attributes.friendly_name | default(sensor.entity_id.split('.')[-1].replace('_', ' ').title()) }}",
-          "value": {{ sensor.state }}
+          "value": {{ sensor.state | float }}
         }{% if not loop.last %},{% endif %}
         {% endfor %}
       ]
