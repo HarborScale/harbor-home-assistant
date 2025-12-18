@@ -1,5 +1,5 @@
 automation:
-  - alias: Push Data to Telemetry Harbor
+  - alias: Push Data to Harbor Scale
     trigger:
       - platform: time_pattern
         minutes: "/5"

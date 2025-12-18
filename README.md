@@ -1,10 +1,10 @@
 
 # Home Assistant Integration
 
-This guide will walk you through the process of setting up the Home Assistant integration with Telemetry Harbor. Easily collect and visualize your smart home data in **Grafana** with **Telemetry Harbor**.
+This guide will walk you through the process of setting up the Home Assistant integration with Harbor Scale. Easily collect and visualize your smart home data in **Grafana** with **Harbor Scale**.
 
 ## Features
-- Push Home Assistant sensor data to Telemetry Harbor
+- Push Home Assistant sensor data to Harbor Scale
 - Automate data collection using REST commands
 - View live dashboards in Grafana
 
@@ -19,8 +19,8 @@ Before starting, ensure you have:
 
 ---
 
-   **Step 1: Create a Telemetry Harbor Account**
-1. **Sign up** at [Telemetry Harbor](https://telemetryharbor.com/)
+   **Step 1: Create a Harbor Scale Account**
+1. **Sign up** at [Harbor Scale](https://harborscale.com/)
 2. **Verify** your email and log in
 3. **Create a Harbor**:
    - Click **Create Harbor** on your dashboard

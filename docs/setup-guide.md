@@ -1,9 +1,9 @@
-# Home Assistant + Telemetry Harbor Integration Guide
+# Home Assistant + Harbor Scale Integration Guide
 
-This guide walks you through integrating **Home Assistant** with **Telemetry Harbor** to visualize your smart home data in **Grafana**.
+This guide walks you through integrating **Home Assistant** with **Harbor Scale** to visualize your smart home data in **Grafana**.
 
-## **Why Use Telemetry Harbor?**
-Home Assistant provides powerful automation but lacks advanced historical data visualization. **Telemetry Harbor** serves as a secure middleware to collect and send data to **Grafana**, where you can build customizable dashboards.
+## **Why Use Harbor Scale?**
+Home Assistant provides powerful automation but lacks advanced historical data visualization. **Harbor Scale** serves as a secure middleware to collect and send data to **Grafana**, where you can build customizable dashboards.
 
 ## **Prerequisites**
 Before starting, ensure you have:
@@ -13,8 +13,8 @@ Before starting, ensure you have:
 
 ---
 
-## **Step 1: Create a Telemetry Harbor Account**
-1. **Sign up** at [Telemetry Harbor](https://telemetryharbor.com/)
+## **Step 1: Create a Harbor Scale Account**
+1. **Sign up** at [Harbor Scale](https://harborscale.com/)
 2. **Verify** your email and log in
 3. **Create a Harbor**:
    - Click **Create Harbor** on your dashboard
